@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #0d1117;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: #e9f0fa;
+}
+
+a {
+  color: #e9f0fa;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title {
+  color: #485464;
+}
+
+.subtitle {
+  line-height: 1;
+  margin-top: -14px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.job {
+  line-height: 1;
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.highlight {
+  color: #3a8a6b;
+  font-weight: 700;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 186px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.button {
+  width: 100%;
+  border-radius: 4px;
+  border: 0;
+  background: blue;
+  margin: 4px 0;
+  color: white;
+  font-weight: 600;
+  padding: 10px 0;
+  text-decoration: none;
+
+  &.github {
+    background: #333333;
+  }
+
+  &.twitter {
+    background: #1aa1f1;
+  }
+
+  &.linkedin {
+    background: #0a66c2;
+  }
+
+  &.instagram {
+    background: rgb(69, 91, 229);
+    background: linear-gradient(45deg, rgba(69, 91, 229, 1) 0%, rgba(181, 55, 141, 1) 50%, rgba(249, 32, 47, 1) 100%);
+  }
+
+  &.books {
+    background: rgb(229, 192, 69);
+    background: linear-gradient(45deg, rgba(229, 192, 69, 1) 0%, rgba(182, 37, 37, 1) 100%);
+  }
+}
+
+.book-list {
+  .book {
+    border: 1px solid #333333;
+    width: 256px;
+    padding: 16px;
+  }
+
+  .book-title {
+    font-weight: 600;
+  }
+  .author {
+    font-size: 0.8em;
+    color: #b7b7b7;
+  }
+
+  .frontpage {
+    height: 256px;
+  }
+}
+

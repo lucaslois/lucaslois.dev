@@ -4,12 +4,12 @@ import '../app.scss';
 // markup
 const IndexPage = () => {
     return (
-        <main className='main'>
+        <main className='main div100vh'>
             <div className='personal-info'>
                 <img className='photo' src="https://avatars.githubusercontent.com/u/14177309?v=4" alt=""/>
                 <title>Lucas Lois</title>
                 <h1 className='title'>Lucas <span className='highlight'>"Lucky"</span> Lois</h1>
-                <h2 className='subtitle'>Software Engineer</h2>
+                <h2 className='subtitle'>Software Engineer & Architect</h2>
                 <h3 className='job'>Technical Leader at <a target='_blank' href="https://braintly.com">Braintly</a></h3>
             </div>
             <div className="buttons">
@@ -18,7 +18,9 @@ const IndexPage = () => {
                 <a target='_blank' href='https://twitter.com/lucaslois95' className='button twitter'>Twitter</a>
                 <a target='_blank' href='https://www.linkedin.com/in/lucaslois/' className='button linkedin'>Linked
                     In</a>
-                {/*<a target='_blank' href='/books' className='button books'>Recommended Books</a>*/}
+                <a target='_blank' href='/books' className='button books'>Recommended Books</a>
+                <a target='_blank' className='button disabled'>Recommended Tools (Coming soon)</a>
+                <a target='_blank' className='button disabled'>My Setup (Coming soon)</a>
             </div>
         </main>
     )

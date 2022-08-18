@@ -1,7 +1,14 @@
 module.exports = {
   siteMetadata: {
-      title: `LuckyBlog`,
+    title: `lucaslois.dev`,
     siteUrl: `https://lucaslois.dev`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: ["gatsby-plugin-sass", {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "UA-146742304-1",
+      head: false,
+      pageTransitionDelay: 0,
+    }
+  }],
 };

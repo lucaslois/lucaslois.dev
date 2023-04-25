@@ -15,12 +15,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.7.1",
+    "gatsby": "^5.9.0",
     "gatsby-plugin-google-analytics": "^4.21.0",
     "gatsby-plugin-sass": "^5.7.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "sass": "^1.49.7"
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.62"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
